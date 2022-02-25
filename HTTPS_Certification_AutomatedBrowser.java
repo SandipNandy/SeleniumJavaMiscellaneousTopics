@@ -20,7 +20,7 @@ public class HTTPS_Certification_AutomatedBrowser {
 		//EdgeOptions options3=new EdgeOptions();
 		//options3.setAcceptInsecureCerts(true);
 		
-		System.setProperty("webdriver.chrome.driver","C:\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","..\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.get("https://expired.badssl.com/");
