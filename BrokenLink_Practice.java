@@ -16,7 +16,7 @@ public class BrokenLink_Practice {
 		System.setProperty("webdriver.chrome.driver","..\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
+		driver.get("https://AutomationPractice/");
 		driver.manage().timeouts().implicitlyWait(6000, TimeUnit.SECONDS);
 		String url=driver.findElement(By.cssSelector("a[href*='brokenlink']")).getAttribute("href");
 				HttpURLConnection conn=(HttpURLConnection) new URL(url).openConnection();
