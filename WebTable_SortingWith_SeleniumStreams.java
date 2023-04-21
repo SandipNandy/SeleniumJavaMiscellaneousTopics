@@ -3,7 +3,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 
-
 import org.openqa.selenium.By;
 
 import org.openqa.selenium.WebDriver;
@@ -13,6 +12,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import org.testng.Assert;
+
+
 
 
 
@@ -29,6 +30,7 @@ System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe");
 WebDriver driver = new ChromeDriver();
 
 driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
+  
 
 // click on column
 
