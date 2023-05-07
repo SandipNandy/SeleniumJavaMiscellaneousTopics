@@ -1,7 +1,6 @@
 import java.util.List;
 import java.util.stream.Collectors;
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,7 +9,6 @@ import org.testng.Assert;
 
 public class FilterWebTablewithSeleniumJava {
 	
-
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver","C:\\chromedriver_win32\\chromedriver.exe");
