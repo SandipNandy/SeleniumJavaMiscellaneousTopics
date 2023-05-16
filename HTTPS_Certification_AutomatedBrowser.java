@@ -7,7 +7,6 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
-
 public class HTTPS_Certification_AutomatedBrowser {
 
 	public static void main(String[] args) {
