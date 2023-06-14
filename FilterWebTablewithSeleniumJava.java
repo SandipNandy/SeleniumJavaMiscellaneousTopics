@@ -10,6 +10,7 @@ public class FilterWebTablewithSeleniumJava {
 	
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
+		
 		System.setProperty("webdriver.chrome.driver","C:\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
