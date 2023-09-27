@@ -35,7 +35,6 @@ FileUtils.copyFile(file, new File("logo.png"));
 //driver.quit();
 //GEt Height & Width
 System.out.println(name.getRect().getDimension().getHeight());
-
 System.out.println(name.getRect().getDimension().getWidth());
 
 }
