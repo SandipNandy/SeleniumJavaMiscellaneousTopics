@@ -30,7 +30,6 @@ driver.switchTo().window(parentWindowId);
 WebElement name=driver.findElement(By.cssSelector("[name='name']"));
 name.sendKeys(courseName);
 //Screenshot
-
 File file=name.getScreenshotAs(OutputType.FILE);
 
 FileUtils.copyFile(file, new File("logo.png"));
