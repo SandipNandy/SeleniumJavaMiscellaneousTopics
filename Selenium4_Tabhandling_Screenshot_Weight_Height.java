@@ -32,7 +32,6 @@ name.sendKeys(courseName);
 //Screenshot
 File file=name.getScreenshotAs(OutputType.FILE);
 FileUtils.copyFile(file, new File("logo.png"));
-
 //driver.quit();
 
 //GEt Height & Width
