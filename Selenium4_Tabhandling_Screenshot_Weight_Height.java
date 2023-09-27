@@ -28,7 +28,6 @@ driver.get("https://rahulshettyacademy.com/");
 String courseName = driver.findElements(By.cssSelector("a[href*='https://courses.rahulshettyacademy.com/p']")).get(1).getText();
 driver.switchTo().window(parentWindowId);
 WebElement name=driver.findElement(By.cssSelector("[name='name']"));
-
 name.sendKeys(courseName);
 
 //Screenshot
