@@ -11,7 +11,6 @@ import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Selenium4_Tabhandling_Screenshot_Weight_Height {
-
 public static void main(String[] args) throws IOException {
 
 // TODO Auto-generated method stub
