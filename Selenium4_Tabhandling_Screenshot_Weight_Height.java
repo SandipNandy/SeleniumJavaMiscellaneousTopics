@@ -33,7 +33,6 @@ name.sendKeys(courseName);
 File file=name.getScreenshotAs(OutputType.FILE);
 FileUtils.copyFile(file, new File("logo.png"));
 //driver.quit();
-
 //GEt Height & Width
 
 System.out.println(name.getRect().getDimension().getHeight());
