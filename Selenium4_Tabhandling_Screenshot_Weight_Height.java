@@ -25,10 +25,7 @@ String parentWindowId = it.next();
 String childWindow =it.next();
 driver.switchTo().window(childWindow);
 driver.get("https://rahulshettyacademy.com/");
-
-String courseName = driver.findElements(By.cssSelector("a[href*='https://courses.rahulshettyacademy.com/p']"))
-
-.get(1).getText();
+String courseName = driver.findElements(By.cssSelector("a[href*='https://courses.rahulshettyacademy.com/p']")).get(1).getText();
 
 driver.switchTo().window(parentWindowId);
 
