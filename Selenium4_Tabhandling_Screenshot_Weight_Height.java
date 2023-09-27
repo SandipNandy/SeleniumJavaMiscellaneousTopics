@@ -29,7 +29,6 @@ String courseName = driver.findElements(By.cssSelector("a[href*='https://courses
 driver.switchTo().window(parentWindowId);
 WebElement name=driver.findElement(By.cssSelector("[name='name']"));
 name.sendKeys(courseName);
-
 //Screenshot
 
 File file=name.getScreenshotAs(OutputType.FILE);
