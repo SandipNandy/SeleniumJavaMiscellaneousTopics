@@ -13,8 +13,6 @@ public static void main(String[] args) throws InterruptedException {
 System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe");
 WebDriver driver = new ChromeDriver();
 driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
-  
-
 // click on column
 
 driver.findElement(By.xpath("//tr/th[1]")).click();
