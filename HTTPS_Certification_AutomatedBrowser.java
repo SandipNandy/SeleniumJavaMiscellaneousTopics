@@ -19,7 +19,6 @@ public class HTTPS_Certification_AutomatedBrowser {
 		//same way we can create it for Edge
 		//EdgeOptions options3=new EdgeOptions();
 		//options3.setAcceptInsecureCerts(true);
-		
 		System.setProperty("webdriver.chrome.driver","..\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver(options);
 		driver.manage().window().maximize();
