@@ -61,7 +61,6 @@ public class Automation_Broken_Links {
 				} else {
 					System.out.println(url + " is a valid link");
 				}
-
 			} catch (MalformedURLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
