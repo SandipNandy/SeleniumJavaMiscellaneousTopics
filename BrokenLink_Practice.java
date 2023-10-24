@@ -24,7 +24,6 @@ public class BrokenLink_Practice {
 				int ResCode=conn.getResponseCode();
 				System.out.println(ResCode);
 
-
 	}
 
 }
