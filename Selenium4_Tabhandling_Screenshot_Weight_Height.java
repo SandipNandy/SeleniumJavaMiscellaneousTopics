@@ -25,6 +25,7 @@ public class Selenium4_Tabhandling_Screenshot_Weight_Height {
 
 // TODO Auto-generated method stub
 System.setProperty("webdriver.chrome.driver","C:\\chromedriver_win32\\chromedriver.exe");
+          
 WebDriver driver=new ChromeDriver();
 driver.get("https://rahulshettyacademy.com/angularpractice/");
 //Switching Window
