@@ -20,6 +20,7 @@ public class Proxy_plugins_DownloadpathsSeleniumjava {
 		
 		proxy.setHttpProxy("ipaddress:4444");
 		options.setCapability("proxy", proxy);
+		
 		//to set the download path
 		Map<String, Object> prefs= new HashMap<String, Object>();
 		prefs.put("download.default_directory", "/download/newfolder");
