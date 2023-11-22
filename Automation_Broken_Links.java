@@ -20,6 +20,7 @@ public class Automation_Broken_Links {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.manage().window().maximize();
+		
 		String homePage = "http://www.zlti.com";
 		String url = "";
 		HttpURLConnection huc = null;
