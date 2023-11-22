@@ -16,6 +16,7 @@ public class Automation_Broken_Links {
 		// https://demoqa.com/links
 
 		System.setProperty("webdriver.chrome.driver", "..\\chromedriver_win32\\chromedriver.exe");
+		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		String homePage = "http://www.zlti.com";
