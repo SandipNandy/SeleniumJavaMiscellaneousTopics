@@ -12,6 +12,7 @@ public class HTTPS_Certification_AutomatedBrowser {
 
 	public static void main(String[] args) {
 		ChromeOptions options= new ChromeOptions();
+		
 		options.setAcceptInsecureCerts(true);
 		//same way we can create it for firefox
 		//FirefoxOptions options2=new FirefoxOptions();
