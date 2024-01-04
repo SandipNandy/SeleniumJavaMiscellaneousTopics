@@ -24,6 +24,7 @@ public class Proxy_plugins_DownloadpathsSeleniumjava {
 		prefs.put("download.default_directory", "/download/newfolder");
 		
 		options.setExperimentalOption("prefs", prefs);
+		
 		System.setProperty("webdriver.chrome.driver","..\\chromedriver_win32\\chromedriver.exe");
 		
 		WebDriver driver=new ChromeDriver(options);
