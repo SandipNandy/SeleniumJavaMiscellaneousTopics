@@ -8,7 +8,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WindowType;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Selenium4_Tabhandling_Screenshot_Weight_Height {
