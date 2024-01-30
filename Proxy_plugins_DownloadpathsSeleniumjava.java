@@ -13,6 +13,7 @@ public class Proxy_plugins_DownloadpathsSeleniumjava {
 		
 		//we can use https://chromedriver.chromium.org/capabilities to know more
 		ChromeOptions options=new ChromeOptions();
+		
 		//to set the proxy
 		Proxy proxy=new Proxy();
 		proxy.setHttpProxy("ipaddress:4444");
