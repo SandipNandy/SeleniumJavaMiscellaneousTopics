@@ -17,6 +17,7 @@ public class BrokenLink_Automation_SoftAssertion {
 		System.setProperty("webdriver.chrome.driver","..\\chromedriver_win32\\chromedriver.exe");
 		
 		WebDriver driver=new ChromeDriver();
+		
 		driver.manage().window().maximize();
 		driver.get("https://AutomationPractice/");
 		driver.manage().timeouts().implicitlyWait(6000, TimeUnit.SECONDS);
