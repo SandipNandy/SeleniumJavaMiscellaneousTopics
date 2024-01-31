@@ -15,6 +15,7 @@ public class BrokenLink_Automation_SoftAssertion {
 	public static void main(String[] args) throws MalformedURLException, IOException {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver","..\\chromedriver_win32\\chromedriver.exe");
+		
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://AutomationPractice/");
