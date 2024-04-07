@@ -18,6 +18,7 @@ public class Proxy_plugins_DownloadpathsSeleniumjava {
 	public static void main(String[] args) {
 		
 		//we can use https://chromedriver.chromium.org/capabilities to know more
+		
 		ChromeOptions options=new ChromeOptions();
 		
 		//to set the proxy
