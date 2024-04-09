@@ -11,7 +11,6 @@ public class DeleteCookies {
 		
 		//If you want to delete the cookies name wise then use below code
 		//driver.manage().deleteCookieNamed("ASF");
-
 	}
 
 }
