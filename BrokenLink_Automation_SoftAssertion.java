@@ -26,6 +26,7 @@ public class BrokenLink_Automation_SoftAssertion {
 
 	      {
 	          String url= link.getAttribute("href");
+		      
 				HttpURLConnection conn=(HttpURLConnection) new URL(url).openConnection();
 				conn.setRequestMethod("HEAD");
 				conn.connect();
