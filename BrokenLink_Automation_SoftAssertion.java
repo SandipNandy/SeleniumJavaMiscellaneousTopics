@@ -26,6 +26,7 @@ public class BrokenLink_Automation_SoftAssertion {
 		driver.manage().timeouts().implicitlyWait(6000, TimeUnit.SECONDS);
 		
 		List<WebElement> links=   driver.findElements(By.cssSelector("li[class='gf-li'] a"));
+		
 		SoftAssert a =new SoftAssert();
 		for(WebElement link : links)
 
