@@ -28,7 +28,6 @@ driver.findElement(By.xpath("//tr/th[1]")).click();
 
 
 // capture all webelements into list
-
 List<WebElement> elementsList = driver.findElements(By.xpath("//tr/td[1]"));
 
 
