@@ -60,7 +60,6 @@ do
 List<WebElement> rows = driver.findElements(By.xpath("//tr/td[1]"));
 
 //This is called '->' Lambda Expression
-
 price = rows.stream().filter(s -> s.getText().contains("Rice"))
 
 .map(s -> getPriceVeggie(s)).collect(Collectors.toList());
