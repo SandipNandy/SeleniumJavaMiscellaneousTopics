@@ -12,7 +12,6 @@ public class FilterWebTablewithSeleniumJava {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver","C:\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		
 		driver.get("https://seleniumPractise/#/offers");
 		 Thread.sleep(3000);
 		
