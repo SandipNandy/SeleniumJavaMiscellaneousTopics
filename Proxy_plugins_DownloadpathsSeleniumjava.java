@@ -27,7 +27,6 @@ public class Proxy_plugins_DownloadpathsSeleniumjava {
 		System.setProperty("webdriver.chrome.driver","..\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver(options);
 		driver.manage().window().maximize();
-		
 		driver.get("https://expired.badssl.com/");
 		driver.manage().timeouts().implicitlyWait(6000, TimeUnit.SECONDS);
 		System.out.println(driver.getTitle());
