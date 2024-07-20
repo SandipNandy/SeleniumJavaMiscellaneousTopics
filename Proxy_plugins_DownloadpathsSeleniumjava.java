@@ -22,7 +22,6 @@ public class Proxy_plugins_DownloadpathsSeleniumjava {
 		
 		//to set the download path
 		Map<String, Object> prefs= new HashMap<String, Object>();
-		
 		prefs.put("download.default_directory", "/download/newfolder");
 		
 		options.setExperimentalOption("prefs", prefs);
