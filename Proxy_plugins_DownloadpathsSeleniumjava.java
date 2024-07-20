@@ -8,7 +8,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 
 public class Proxy_plugins_DownloadpathsSeleniumjava {
-
 	public static void main(String[] args) {
 		
 		//we can use https://chromedriver.chromium.org/capabilities to know more
