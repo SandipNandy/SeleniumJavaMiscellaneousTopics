@@ -15,6 +15,7 @@ public class FilterWebTablewithSeleniumJava {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://seleniumPractise/#/offers");
+		
 		 Thread.sleep(3000);
         driver.findElement(By.id("search-field")).sendKeys("Potato");
         Thread.sleep(3000);
