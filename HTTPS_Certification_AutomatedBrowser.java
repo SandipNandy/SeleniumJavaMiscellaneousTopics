@@ -15,6 +15,7 @@ public class HTTPS_Certification_AutomatedBrowser {
 		
 		options.setAcceptInsecureCerts(true);
 		//same way we can create it for firefox
+		
 		//FirefoxOptions options2=new FirefoxOptions();
 		
 		//options2.setAcceptInsecureCerts(true);
