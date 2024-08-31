@@ -15,6 +15,7 @@ System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe");
   
 WebDriver driver = new ChromeDriver();
 driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
+  
 // click on column
 driver.findElement(By.xpath("//tr/th[1]")).click();
 // capture all webelements into list
