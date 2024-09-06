@@ -12,6 +12,7 @@ public class DeleteCookies {
 		WebDriver driver=new ChromeDriver();
 		
 		driver.manage().window().maximize();
+		
 		driver.manage().deleteAllCookies();
 		//If you want to delete the cookies name wise then use below code
 		
