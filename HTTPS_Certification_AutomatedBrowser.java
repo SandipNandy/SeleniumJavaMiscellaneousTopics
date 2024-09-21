@@ -11,6 +11,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 public class HTTPS_Certification_AutomatedBrowser {
 
 	public static void main(String[] args) {
+		
 		ChromeOptions options= new ChromeOptions();
 		
 		options.setAcceptInsecureCerts(true);
