@@ -15,7 +15,6 @@ public class FilterWebTablewithSeleniumJava {
 		driver.get("https://seleniumPractise/#/offers");
 		 Thread.sleep(3000);
                driver.findElement(By.id("search-field")).sendKeys("Potato");
-		
         Thread.sleep(3000);
         List<WebElement> Vegitables= driver.findElements(By.xpath("//tr/td[1]"));
 		
