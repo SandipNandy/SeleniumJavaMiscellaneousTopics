@@ -17,7 +17,6 @@ public class FilterWebTablewithSeleniumJava {
                driver.findElement(By.id("search-field")).sendKeys("Potato");
         Thread.sleep(3000);
         List<WebElement> Vegitables= driver.findElements(By.xpath("//tr/td[1]"));
-		
         List<WebElement> FilteredList=Vegitables.stream().filter(V->V.getText().contains("Potato")).collect(Collectors.toList());
 		
         Assert.assertEquals(Vegitables.size(), FilteredList.size());
