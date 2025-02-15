@@ -13,7 +13,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Automation_Broken_Links {
 	
 	public static void main(String[] args) throws MalformedURLException, IOException {
-		
 		// TODO Auto-generated method stubs
 		
 		// https://demoqa.com/links
