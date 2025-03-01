@@ -36,6 +36,7 @@ List<String> originalList = elementsList.stream().map(s -> s.getText()).collect(
 // sort on the original list of step 3 -> sorted list
 
 List<String> sortedList = originalList.stream().sorted().collect(Collectors.toList());
+  
 
 // compare original list vs sorted list
 
