@@ -28,6 +28,7 @@ System.setProperty("webdriver.chrome.driver","C:\\chromedriver_win32\\chromedriv
           
           
 WebDriver driver=new ChromeDriver();
+          
 driver.get("https://rahulshettyacademy.com/angularpractice/");
           
 //Switching Window
