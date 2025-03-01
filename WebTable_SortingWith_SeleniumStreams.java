@@ -31,6 +31,7 @@ List<WebElement> elementsList = driver.findElements(By.xpath("//tr/td[1]"));
   
 // capture text of all webelements into new(original) list
 List<String> originalList = elementsList.stream().map(s -> s.getText()).collect(Collectors.toList());
+  
 
 // sort on the original list of step 3 -> sorted list
 
