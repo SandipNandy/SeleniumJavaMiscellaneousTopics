@@ -22,6 +22,7 @@ public class Screenshot {
 		Thread.sleep(6000);
 		
 		File pic=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		
 		FileUtils.copyFile(pic, new File(".\\Pictures\\Screenshots\\seleniumpic.png"));
 		
 
