@@ -23,7 +23,6 @@ driver.switchTo().newWindow(WindowType.WINDOW);
 Set<String> handles=driver.getWindowHandles();
 Iterator<String> it=handles.iterator();
 String parentWindowId = it.next();
-          
 String childWindow =it.next();
           
 driver.switchTo().window(childWindow);
