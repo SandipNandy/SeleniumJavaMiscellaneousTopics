@@ -18,8 +18,7 @@ public static void main(String[] args) throws IOException {
 System.setProperty("webdriver.chrome.driver","C:\\chromedriver_win32\\chromedriver.exe"); 
 WebDriver driver=new ChromeDriver();
           
-driver.get("https://rahulshettyacademy.com/angularpractice/");
-          
+driver.get("https://rahulshettyacademy.com/angularpractice/");      
 //Switching Window
 driver.switchTo().newWindow(WindowType.WINDOW);
           
