@@ -20,7 +20,6 @@ WebDriver driver=new ChromeDriver();
 driver.get("https://rahulshettyacademy.com/angularpractice/");      
 //Switching Window
 driver.switchTo().newWindow(WindowType.WINDOW);
-          
 Set<String> handles=driver.getWindowHandles();
 Iterator<String> it=handles.iterator();
           
