@@ -20,6 +20,7 @@ public class Screenshot {
 		driver.get("https://www.youtube.com/");
 
 		Thread.sleep(6000);
+		
 		File pic=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(pic, new File(".\\Pictures\\Screenshots\\seleniumpic.png"));
 		
