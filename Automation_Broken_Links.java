@@ -29,6 +29,7 @@ public class Automation_Broken_Links {
 		driver.manage().window().maximize();
 		
 		String homePage = "http://www.zlti.com";
+		
 		String url = "";
 		HttpURLConnection huc = null;
 		int respCode = 200;
