@@ -35,6 +35,7 @@ public class Automation_Broken_Links {
 		HttpURLConnection huc = null;
 		
 		int respCode = 200;
+		
 		driver.get(homePage);
 
 		driver.manage().timeouts().implicitlyWait(6000, TimeUnit.SECONDS);
