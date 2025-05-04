@@ -39,6 +39,7 @@ public class Automation_Broken_Links {
 		driver.get(homePage);
 
 		driver.manage().timeouts().implicitlyWait(6000, TimeUnit.SECONDS);
+		
 		List<WebElement> links = driver.findElements(By.tagName("a"));
 		java.util.Iterator<WebElement> it = links.iterator();
 
