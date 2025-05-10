@@ -38,6 +38,7 @@ public class BrokenLink_Automation_SoftAssertion {
 		List<WebElement> links=   driver.findElements(By.cssSelector("li[class='gf-li'] a"));
 		
 		SoftAssert a =new SoftAssert();
+		
 		for(WebElement link : links)
 
 	      {
