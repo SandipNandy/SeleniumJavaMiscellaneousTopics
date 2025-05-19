@@ -8,7 +8,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.apache.commons.io.FileUtils;
 
 public class Screenshot {
-	
 	public static void main(String[] args) throws IOException, InterruptedException {
 		
 		System.setProperty("webdriver.chrome.driver",".\\chromedriver_win32\\chromedriver.exe");
