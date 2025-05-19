@@ -13,7 +13,6 @@ public class Screenshot {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.youtube.com/");
-
 		Thread.sleep(6000);
 		
 		File pic=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
