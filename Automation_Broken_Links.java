@@ -22,7 +22,6 @@ public class Automation_Broken_Links {
 		String homePage = "http://www.zlti.com";
 		String url = "";
 		HttpURLConnection huc = null;
-		
 		int respCode = 200;
 		
 		driver.get(homePage);
@@ -76,6 +75,7 @@ public class Automation_Broken_Links {
 	}
 
 }
+
 
 
 
