@@ -1,6 +1,5 @@
 import java.util.HashMap;
 import java.util.Map;
-
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Proxy;
@@ -35,4 +34,5 @@ public class Proxy_plugins_DownloadpathsSeleniumjava {
 	}
 
 }
+
 
