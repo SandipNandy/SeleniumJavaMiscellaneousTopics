@@ -16,6 +16,7 @@ import org.apache.commons.io.FileUtils;
 
 public class Screenshot {
 	public static void main(String[] args) throws IOException, InterruptedException {
+		
 		System.setProperty("webdriver.chrome.driver",".\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
@@ -28,6 +29,7 @@ public class Screenshot {
 	}
 
 }
+
 
 
 
