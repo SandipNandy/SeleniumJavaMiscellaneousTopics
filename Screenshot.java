@@ -11,6 +11,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+
 import org.apache.commons.io.FileUtils;
 
 public class Screenshot {
@@ -27,6 +28,7 @@ public class Screenshot {
 	}
 
 }
+
 
 
 
